@@ -1,0 +1,107 @@
+.card_1{
+    width: 46.9vh;
+    height: 84.6vh;
+    
+    background: #FF0000;
+    border-radius: 10px 10px 0px 10px;
+
+    border-width: 3px 0px 3px 3px;
+    border-style: solid;
+
+  }
+  
+.top_container{
+  margin: 2.7vh 0 0 2.7vh;
+  
+  display: flex;
+}
+
+.top_corner_big_outer_circle{
+  width: 80.29px;
+  height: 80.29px;
+  
+  background: #FFFFFF;
+
+  border: 3px solid;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_corner_big_inner_circle{
+  width: 65.42px;
+  height: 65.42px;
+
+  background: #3298CB;
+  
+  border-radius: 50%;
+  border: 3px solid;
+
+}
+
+.top_corner_small_circles_container{
+  display: flex;
+
+  margin-left: 4.3vh;  
+}
+
+.top_corner_small_circles{
+  width: 2.8vh;
+  height: 2.8vh;
+
+  margin-right: 1.2vh;
+
+  border-radius: 50%;
+  border: 3px solid;
+
+}
+
+.middle_main_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5.13vh;
+}
+
+.middle_outer_container{
+  width: 309.28px;
+  height: 300.36px;
+  
+  background: #FFFFFF;
+
+  border-radius: 0px 0px 0px 55px;
+  border: 3px solid;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.middle_inner_container{
+  width: 268.39px;
+  height: 218.58px;
+  
+  background: #98CB98;
+  
+  border: 3px solid;
+  border-radius: 16px;
+
+  margin: 4vh 2.48vh 1.7vh 2.39vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle_small_circle{
+  width: 17.84px;
+  height: 17.84px;
+
+  background: #FF0000;
+
+  border: 3px solid;
+  border-radius: 50%;
+  
+  margin-left: 2.7vh;
+}
