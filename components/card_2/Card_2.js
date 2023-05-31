@@ -17,7 +17,7 @@ export const Card_2 = ({
 
 	const pokemon_type_colors= {
 		normal:"A8A77A",
-		Fire: "EE8130",
+		fire: "EE8130",
 		water: "6390F0",
 		electric: "F7D02C",
 		grass: "7AC74C",
