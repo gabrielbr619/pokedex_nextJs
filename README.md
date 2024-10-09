@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex VueJS
 
-## Getting Started
+Este projeto é uma Pokedex interativa construída com Vue.js, criada com o intuito de aprender e praticar o desenvolvimento com Vue.js.
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/85ec4fc1-7f06-4d7b-9c0b-79375d1b0c93)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Visão Geral
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+A Pokedex VueJS é uma aplicação web que permite aos usuários explorar informações sobre diferentes Pokémon. Ela utiliza a PokeAPI para obter dados atualizados sobre os Pokémon.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Funcionalidades
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Lista de Pokémon: Exibe uma lista de todos os Pokémon disponíveis.
+- Detalhes do Pokémon: Mostra informações detalhadas sobre um Pokémon selecionado.
+- Pesquisa: Permite aos usuários pesquisar Pokémon por nome.
+- Interface Responsiva: Design adaptável para diferentes tamanhos de tela.
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- Vue.js: Framework JavaScript para construção da interface do usuário.
+- PokeAPI: API RESTful utilizada para obter dados dos Pokémon.
+- CSS Modules: Para estilização componentizada.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estrutura do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O projeto é composto por dois componentes principais:
 
-## Deploy on Vercel
+1. `Card_1`: Exibe informações detalhadas sobre o Pokémon selecionado.
+2. `Card_2`: Lista todos os Pokémon disponíveis e permite a seleção.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Como Executar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone o repositório:
+   ```
+   git clone [URL_DO_SEU_REPOSITÓRIO]
+   ```
+
+2. Instale as dependências:
+   ```
+   npm install
+   ```
+
+3. Execute o projeto:
+   ```
+   npm run dev
+   ```
+
+4. Abra o navegador e acesse `http://localhost:3000`.
+
+## Aprendizados
+
+Este projeto foi desenvolvido com o objetivo de aprender Vue.js, focando em:
+
+- Componentização em Vue.js
+- Gerenciamento de estado com `useState`
+- Consumo de APIs externas
+- Renderização condicional
+- Estilização com CSS Modules
+
+## Próximos Passos
+
+- Implementar paginação para a lista de Pokémon
+- Adicionar mais detalhes e estatísticas para cada Pokémon
+- Melhorar a performance com lazy loading de imagens
+- Implementar um modo escuro
+- Adicionar animações e transições para melhorar a experiência do usuário
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
