@@ -33,7 +33,7 @@ O projeto é composto por dois componentes principais:
 
 1. Clone o repositório:
    ```
-   git clone [URL_DO_SEU_REPOSITÓRIO]
+   git clone https://github.com/gabrielbr619/pokedex_nextJs/
    ```
 
 2. Instale as dependências:
